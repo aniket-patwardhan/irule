@@ -1,0 +1,4 @@
+ when HTTP_REQUEST {
+       HTTP::redirect https://[getfield [HTTP::host] ":" 1][HTTP::uri]
+    }
+definition-signature WsYy2M6xMqvosIKIEH/FSsvhtWMe6xKOA6i7f09Hbp6tJviSRXSan9xiuI8AUXXeWwB4wU/ZVfd8OXR92fOjZY1GFyea9NoY64nZMZ3+/Yy5XuiqA1bBUNIpZNmv2/zYOhDBsO0Wg27evtJrkgU/3K0cBMIgaAM5gDjlmd1KPSPmpXgcMzNpbSuNAgw8uy5FKlFEjjSNmTzTvKy83QcFFoigAixOsq0ds9Qt2gPvQ+u/4qibvTo/mxf5LF1rDc1cWoVxwspGbC5VMt1DKjG5hRo0PAr2ES9bUyQst+30CoSULDgl3hWt9Q4S5OCKbwTHRZmglvZ12s8+Qolr56cVtQ==
